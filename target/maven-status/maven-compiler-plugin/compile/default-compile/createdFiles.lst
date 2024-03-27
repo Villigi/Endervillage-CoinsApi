@@ -1,0 +1,12 @@
+de\villigi\endervillagecoinsapi\coins\commands\Pay_CMD.class
+de\villigi\endervillagecoinsapi\coins\DatabaseManager.class
+de\villigi\endervillagecoinsapi\coins\CoinManager.class
+de\villigi\endervillagecoinsapi\coins\listener\CoinsConnectionListener.class
+de\villigi\endervillagecoinsapi\coins\commands\Coins_CMD.class
+de\villigi\endervillagecoinsapi\coins\API.class
+de\villigi\endervillagecoinsapi\coins\StarterCoinsListener.class
+de\villigi\endervillagecoinsapi\coins\commands\RemoveCoins_CMD.class
+de\villigi\endervillagecoinsapi\coins\commands\AddCoins_CMD.class
+de\villigi\endervillagecoinsapi\coins\database\PlayerCoinsManager.class
+de\villigi\endervillagecoinsapi\coins\database\PlayerCoins.class
+de\villigi\endervillagecoinsapi\CoinsApi.class
