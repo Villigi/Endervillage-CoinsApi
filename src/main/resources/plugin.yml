@@ -1,0 +1,4 @@
+name: Endervillage-CoinsApi
+version: '${project.version}'
+main: de.villigi.endervillagecoinsapi.Endervillage_CoinsApi
+api-version: '1.20'
