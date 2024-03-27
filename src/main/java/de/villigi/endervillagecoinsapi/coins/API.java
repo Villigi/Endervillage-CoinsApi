@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class API {
 
-    public static void addCoins(Player player, int coins) {
+    public void addCoins(Player player, int coins) {
         PlayerCoins playerCoins = null;
         try {
             playerCoins = new PlayerCoins(CoinsApi.getInstance(), player.getUniqueId());
@@ -17,7 +17,7 @@ public class API {
         }
         playerCoins.addCoins(coins);
     }
-    public static void setCoins(Player player, int coins) {
+    public void setCoins(Player player, int coins) {
         PlayerCoins playerCoins = null;
         try {
             playerCoins = new PlayerCoins(CoinsApi.getInstance(), player.getUniqueId());
@@ -26,7 +26,7 @@ public class API {
         }
         playerCoins.setCoins(coins);
     }
-    public static void removeCoins(Player player, int coins) {
+    public void removeCoins(Player player, int coins) {
         PlayerCoins playerCoins = null;
         try {
             playerCoins = new PlayerCoins(CoinsApi.getInstance(), player.getUniqueId());
@@ -36,7 +36,7 @@ public class API {
         playerCoins.removeCoins(coins);
     }
 
-    public static int getCoins(Player player) {
+    public int getCoins(Player player) {
         PlayerCoins playerCoins = null;
         try {
             playerCoins = new PlayerCoins(CoinsApi.getInstance(), player.getUniqueId());
