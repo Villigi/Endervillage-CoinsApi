@@ -15,10 +15,6 @@ public class StarterCoinsListener implements Listener {
     public void onStarterConnect(PlayerJoinEvent event) {
         Player p = (Player) event.getPlayer();
 
-        if(!p.hasPlayedBefore()) {
-
-            p.sendMessage(API.CoinSystem + ChatColor.translateAlternateColorCodes('&', AGpi.apicfg.getString("Coins.Firstjoin")));
-        }
 
 
     }
