@@ -38,6 +38,7 @@ public final class CoinsApi extends JavaPlugin {
         return api;
     }
 
+
     public DatabaseManager getDatabaseManager() {
         return databaseManager;
     }
